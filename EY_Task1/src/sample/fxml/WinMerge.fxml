@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="284.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.ControllerWinMerge">
+   <children>
+      <TextField fx:id="delLine" layoutX="182.0" layoutY="119.0" prefHeight="31.0" prefWidth="175.0" />
+      <Button layoutX="182.0" layoutY="46.0" mnemonicParsing="false" onAction="#MergeFiles" prefHeight="44.0" prefWidth="175.0" text="Объединить" AnchorPane.rightAnchor="195.0" />
+      <Text layoutX="182.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="удалив строки содержащие:" wrappingWidth="174.9999940916896" />
+      <Text fx:id="report" layoutX="182.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="174.9999940916896" />
+   </children>
+</AnchorPane>
